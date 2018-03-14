@@ -1,0 +1,38 @@
+﻿@model K4Y.AMCAS.DataExchange.WebClient.Models.MainModel
+
+@using (Html.BeginForm("Sync", "Main"))
+{
+    <div class="prompt-group">
+        <input type="submit" value="Sync &#8811;" class="btn btn-primary btn-lg" />
+        <p class="propmpt-text">Click on the 'Sync' button to synchronize the content of the 'Applications retrieved from the API' table to the database.</p>
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Phone
+            </th>
+        </tr>
+
+        @for (int i = 0; i < Model.ApiApplications.Count; i++)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.ApiApplications[i].FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.ApiApplications[i].LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.ApiApplications[i].Phone)
+                </td>
+            </tr>
+        }
+
+    </table>
+}

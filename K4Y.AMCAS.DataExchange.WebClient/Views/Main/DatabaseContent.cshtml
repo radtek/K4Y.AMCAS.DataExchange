@@ -1,0 +1,38 @@
+﻿@model K4Y.AMCAS.DataExchange.WebClient.Models.MainModel
+
+@using (Html.BeginForm("LoadDatabaseContent", "Main"))
+{
+    <div class="prompt-group">
+        <input type="submit" value="Load from Database" class="btn btn-primary btn-lg" />
+        <p class="propmpt-text">Click on the 'Load from Database' button to load the applications stored in the database.</p>
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Phone
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.DatabaseApplications)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+            </tr>
+        }
+    </table>
+}

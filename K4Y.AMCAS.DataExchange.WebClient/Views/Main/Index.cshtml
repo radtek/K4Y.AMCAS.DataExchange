@@ -1,0 +1,44 @@
+﻿@model K4Y.AMCAS.DataExchange.WebClient.Models.MainModel
+
+@{
+    /**/
+
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AMCAS Data Exchange Integration - Demo</h2>
+
+<div>
+    @*Do not put the main page in a form, as this prevents the partial views to post to their own actions
+        @using (Html.BeginForm())
+        {
+        }*@
+    @Html.Partial("LoadApiResponse", Model)
+    <table class="table">
+        <tr>
+            <th>
+                API Response Content
+            </th>
+            <th>
+                Applications retrieved from API
+            </th>
+            <th>
+                Applications retrieved from Database
+            </th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.Partial("ApiResponse", Model)
+            </td>
+            <td>
+                @Html.Partial("ParseResult", Model)
+            </td>
+            <td>
+                @Html.Partial("DatabaseContent", Model)
+            </td>
+        </tr>
+    </table>
+</div>
