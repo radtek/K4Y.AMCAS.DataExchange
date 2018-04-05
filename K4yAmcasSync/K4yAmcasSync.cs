@@ -16,6 +16,7 @@ namespace K4Y.AMCAS.DataExchange.Service
     public partial class K4yAmcasSync : ServiceBase
     {
         Timer timer = new Timer();
+        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
         public K4yAmcasSync()
         {
             InitializeComponent();
@@ -23,19 +24,23 @@ namespace K4Y.AMCAS.DataExchange.Service
 
         protected override void OnStart(string[] args)
         {
-            log("Starting service.");
-
-            timer.Elapsed += new ElapsedEventHandler(onElapsedTime);
-            timer.Interval = 300000;
-            timer.Enabled = true;
-
-            log("Service started.");
+            try
+            {
+                timer.Elapsed += new ElapsedEventHandler(onElapsedTime);
+                timer.Interval = 300000;
+                timer.Enabled = true;
+                logger.Info("Service started successfully.");
+            }
+            catch (Exception e)
+            {
+                logger.Error(e);
+            }
         }
 
         protected override void OnStop()
         {
             timer.Enabled = false;
-            log("Service stopped.");
+            logger.Info("Service stopped successfully.");
         }
 
         internal void TestStartupAndStop(string[] args)
@@ -49,62 +54,28 @@ namespace K4Y.AMCAS.DataExchange.Service
 
         private void onElapsedTime(object source, ElapsedEventArgs e)
         {
-            log("Starting syncronization.");
+            logger.Info("Starting syncronization.");
 
             try
             {
-                RestApi.IApiClient apiClient;
-                DataStore.AmcasRepository repository;
-                apiClient = new RestApi.MockApiClient();
-                repository = new DataStore.AmcasRepository();
-                log("Data access setup completed.");
+                RestApi.IApiClient apiClient = new RestApi.MockApiClient();
+                DataStore.AmcasRepository repository = new DataStore.AmcasRepository();
 
-                List<DataModel.Application> apiApplications = apiClient.GetApplicationList(DataModel.MedicalInstitutions.University1);
-                log("Applications retrieved from REST API: " + apiApplications.Count);
-                repository.SyncApplications(apiApplications);
-                List<DataModel.Application> repositoryApplications = repository.GetApplicationList();
-                log("Applications available in database: " + repositoryApplications.Count);
-                log("Syncronization completed.");
+                do
+                {
+                    List<DataModel.Application> apiApplications = apiClient.GetApplicationList(DataModel.MedicalInstitutions.NovaSoutheastern);
+                    logger.Info("Applications retrieved from REST API: {0}", apiApplications.Count);
+                    repository.SyncApplications(apiApplications);
+                    List<DataModel.Application> repositoryApplications = repository.GetApplicationList();
+                    logger.Info("Applications available in database: {0}", repositoryApplications.Count);
+                    logger.Info("Batch indicator: {0}", apiClient.BatchIndicator);
+                }
+                while (apiClient.BatchIndicator);
+                logger.Info("Syncronization completed.");
             }
             catch (Exception ex)
             {
-                log(ex);
-                log("Syncronization failed.");
-            }
-        }
-        private void log(Exception ex)
-        {
-            StreamWriter sw;
-            try
-            {
-                if (ex.InnerException == null)
-                {
-                    sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
-                    sw.WriteLine("{0} Exception: {1}; {2} \n", DateTime.Now.ToString("h:mm:ss.fff"), ex.Source.ToString().Trim(), ex.Message.ToString().Trim());
-                    sw.Flush();
-                    sw.Close();
-                }
-                else
-                {
-                    log(ex.InnerException);
-                }
-            }
-            catch
-            {
-            }
-        }
-        private void log(string message)
-        {
-            StreamWriter sw;
-            try
-            {
-                sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
-                sw.WriteLine("{0} Message: {1}\n", DateTime.Now.ToString("h:mm:ss.fff"), message);
-                sw.Flush();
-                sw.Close();
-            }
-            catch
-            {
+                logger.Error(ex, "Syncronization failed.");
             }
         }
     }

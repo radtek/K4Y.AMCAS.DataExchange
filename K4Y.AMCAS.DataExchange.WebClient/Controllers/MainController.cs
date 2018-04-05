@@ -43,7 +43,7 @@ namespace K4Y.AMCAS.DataExchange.WebClient.Controllers
         public ActionResult LoadApiResponse(MainModel model)
         {
             IApiClient apiClient = HttpContext.Application["apiClient"] as IApiClient;
-            model.Content = apiClient.GetApiResponseContent(MedicalInstitutions.University1);
+            model.Content = apiClient.GetApiResponseContent(MedicalInstitutions.NovaSoutheastern);
             loadedContent = model.Content;
 
             model.ApiApplications = parsedApplications;

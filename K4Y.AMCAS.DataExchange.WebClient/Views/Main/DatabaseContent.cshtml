@@ -17,11 +17,11 @@
             <th>
                 Phone
             </th>
-            <th></th>
         </tr>
-
-        @foreach (var item in Model.DatabaseApplications)
+        @if (Model != null && Model.DatabaseApplications != null)
         {
+            foreach (var item in Model.DatabaseApplications)
+            {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.FirstName)
@@ -33,6 +33,7 @@
                     @Html.DisplayFor(modelItem => item.Phone)
                 </td>
             </tr>
+            }
         }
     </table>
 }

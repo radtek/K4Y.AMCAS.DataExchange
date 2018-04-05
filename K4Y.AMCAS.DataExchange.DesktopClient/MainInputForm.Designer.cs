@@ -55,7 +55,7 @@
             this.textBox1.Location = new System.Drawing.Point(13, 81);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(465, 400);
+            this.textBox1.Size = new System.Drawing.Size(402, 400);
             this.textBox1.TabIndex = 0;
             // 
             // label1
@@ -75,7 +75,7 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.DataSource = this.bindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(594, 81);
+            this.dataGridView1.Location = new System.Drawing.Point(531, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(371, 400);
             this.dataGridView1.TabIndex = 2;
@@ -95,7 +95,7 @@
             // buttonParse
             // 
             this.buttonParse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonParse.Location = new System.Drawing.Point(484, 246);
+            this.buttonParse.Location = new System.Drawing.Point(421, 246);
             this.buttonParse.Name = "buttonParse";
             this.buttonParse.Size = new System.Drawing.Size(104, 23);
             this.buttonParse.TabIndex = 3;
@@ -110,7 +110,7 @@
             this.dataGridView2.AutoGenerateColumns = false;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.DataSource = this.bindingSource2;
-            this.dataGridView2.Location = new System.Drawing.Point(1052, 81);
+            this.dataGridView2.Location = new System.Drawing.Point(989, 81);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(363, 400);
             this.dataGridView2.TabIndex = 4;
@@ -118,7 +118,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(971, 246);
+            this.button2.Location = new System.Drawing.Point(908, 246);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -142,7 +142,7 @@
             // buttonReset
             // 
             this.buttonReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonReset.Location = new System.Drawing.Point(329, 52);
+            this.buttonReset.Location = new System.Drawing.Point(266, 52);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(149, 23);
             this.buttonReset.TabIndex = 6;
@@ -153,7 +153,7 @@
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(1271, 52);
+            this.button4.Location = new System.Drawing.Point(1208, 52);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(144, 23);
             this.button4.TabIndex = 7;
@@ -165,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1427, 493);
+            this.ClientSize = new System.Drawing.Size(1364, 493);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.button2);

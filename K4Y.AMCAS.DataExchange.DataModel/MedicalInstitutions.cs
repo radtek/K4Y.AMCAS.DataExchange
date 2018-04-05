@@ -9,6 +9,6 @@ namespace K4Y.AMCAS.DataExchange.DataModel
     public enum MedicalInstitutions
     {
         None,
-        University1 = 1023
+        NovaSoutheastern = 870
     };
 }

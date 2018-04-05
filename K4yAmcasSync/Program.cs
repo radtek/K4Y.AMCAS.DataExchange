@@ -15,12 +15,12 @@ namespace K4Y.AMCAS.DataExchange.Service
         /// </summary>
         static void Main(string[] args)
         {
-            //if (Environment.UserInteractive)
-            //{
-            //    K4yAmcasSync service1 = new K4yAmcasSync();
-            //    service1.TestStartupAndStop(args);
-            //}
-            //else
+            if (Environment.UserInteractive)
+            {
+                K4yAmcasSync service1 = new K4yAmcasSync();
+                service1.TestStartupAndStop(args);
+            }
+            else
             {
                 ServiceBase[] ServicesToRun;
                 ServicesToRun = new ServiceBase[]

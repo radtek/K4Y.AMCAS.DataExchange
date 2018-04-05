@@ -3,7 +3,7 @@
 @{
     /**/
 
-    ViewBag.Title = "Index";
+    ViewBag.Title = "AMCAS Data Exchange Integration";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -17,26 +17,25 @@
     @Html.Partial("LoadApiResponse", Model)
     <table class="table">
         <tr>
-            <th>
-                API Response Content
+            <th class="left-column">
+                API RESPONSE
             </th>
             <th>
-                Applications retrieved from API
+                API APPLICATIONS
             </th>
-            <th>
-                Applications retrieved from Database
+            <th class="right-column">
+                DATABASE APPLICATIONS
             </th>
-            <th></th>
         </tr>
 
         <tr>
-            <td>
+            <td class="left-column">
                 @Html.Partial("ApiResponse", Model)
             </td>
             <td>
                 @Html.Partial("ParseResult", Model)
             </td>
-            <td>
+            <td class="right-column">
                 @Html.Partial("DatabaseContent", Model)
             </td>
         </tr>

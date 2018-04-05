@@ -2,11 +2,19 @@
 
 @using (Html.BeginForm("Parse", "Main"))
 {
-<div class="prompt-group">
-    <input type="submit" value="Parse &#8811;" class="btn btn-primary btn-lg" />
-    <p class="propmpt-text">Click on the 'Parse' button to parse the content of the XML and load it into the 'Applications retrieved from the API' table.</p>
-</div>
-<div>
-    @Html.TextAreaFor(model => model.Content, 20, 40, new { @class = "xml-content-area" })
-</div>
+    <div class="prompt-group">
+        <input id="parseButton" type="submit" value="Parse &#8811;" class="btn btn-primary btn-lg" />
+        <p class="propmpt-text">Click on the 'Parse' button to parse the content of the XML and load it into the 'API APPLICATIONS' table.</p>
+    </div>
+    <div>
+        @if (Model != null && Model.Content != null)
+        {
+            @Html.TextAreaFor(model => model.Content, 20, 40, new { @class = "xml-content-area" })
+        }
+        else
+        {
+            @Html.TextArea("Content", "", 20, 40, new { @class = "xml-content-area" })
+        }
+    </div>
 }
+

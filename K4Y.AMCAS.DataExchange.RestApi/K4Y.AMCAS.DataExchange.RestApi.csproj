@@ -32,6 +32,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient.cs" />
+    <Compile Include="BaseApiClient.cs" />
     <Compile Include="IApiClient.cs" />
     <Compile Include="MockApiClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\Applications.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Applications2018.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

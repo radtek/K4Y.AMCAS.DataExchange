@@ -22,8 +22,61 @@ select {
     max-width: 280px;
 }
 
-.prompt-group {
+/* Override bootstrap values */
+.table thead > tr > th.left-column,
+.table tbody > tr > th.left-column,
+.table tfoot > tr > th.left-column,
+.table thead > tr > td.left-column,
+.table tbody > tr > td.left-column,
+.table tfoot > tr > td.left-column {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+/* Override bootstrap values */
+.table thead > tr > th.right-column,
+.table tbody > tr > th.right-column,
+.table tfoot > tr > th.right-column,
+.table thead > tr > td.right-column,
+.table tbody > tr > td.right-column,
+.table tfoot > tr > td.right-column {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 0px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+/* Override bootstrap values */
+th {
+    text-align: center;
+}
+
+.demo-item {
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
     background-color: #eeeeee;
+}
+
+
+.prompt-group {
+    border-radius: 10px;
+    background-color: #eeeeee;
+    margin-top: 8px;
+    margin-bottom: 8px;
     padding: 30px;
 }
 

@@ -12,6 +12,7 @@ namespace K4Y.AMCAS.DataExchange.DesktopClient
 {
     public partial class MainInputForm : Form
     {
+        private String apiURL = "https://ws‐amcas.staging.aamc.org/amcas‐data‐service/"; // 143.220.15.63
         private RestApi.IApiClient apiClient;
         private List<DataModel.Application> apiApplications = new List<DataModel.Application>();
         private DataStore.AmcasRepository repository;
@@ -65,7 +66,7 @@ namespace K4Y.AMCAS.DataExchange.DesktopClient
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
-            textBox1.Text = apiClient.GetApiResponseContent(DataModel.MedicalInstitutions.University1);
+            textBox1.Text = apiClient.GetApiResponseContent(DataModel.MedicalInstitutions.NovaSoutheastern);
         }
     }
 }
