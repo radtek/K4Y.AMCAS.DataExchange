@@ -13,18 +13,9 @@ namespace K4Y.AMCAS.DataExchange.DataStore
 {
     public class AmcasContext : DbContext
     {
-        public AmcasContext() : base(createNewConnectionString("AmcasSyncDatabase", "W@terfall1"))
+        public AmcasContext() : base(ConfigurationManager.ConnectionStrings["AmcasSyncDatabase"].ConnectionString)
         {
         }
         public DbSet<Application> Applications { get; set; }
-
-        private static string createNewConnectionString(string connectionName, string password)
-        {
-            var connectionSettings = ConfigurationManager.ConnectionStrings[connectionName];
-            var originalConnectionString = connectionSettings.ConnectionString;
-            var modifiedConnectionString = originalConnectionString.Replace("dummy_password", password);
-
-            return modifiedConnectionString;
-        }
     }
 }

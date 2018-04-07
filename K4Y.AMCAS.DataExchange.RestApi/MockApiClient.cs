@@ -11,7 +11,7 @@ using System.IO;
 
 namespace K4Y.AMCAS.DataExchange.RestApi
 {
-    public class MockApiClient : BaseApiClient
+    class MockApiClient : BaseApiClient
     {
         public override string GetApiResponseContent(MedicalInstitutions institution)
         {
@@ -24,12 +24,34 @@ namespace K4Y.AMCAS.DataExchange.RestApi
             }
             return content;
         }
-        public override List<Application> GetApplicationList(MedicalInstitutions institution)
+        public override List<Application> GetAllApplications(MedicalInstitutions institution)
         {
             List<Application>  applicationList = new List<Application>();
 
             Assembly a = Assembly.GetExecutingAssembly();
             Stream s = a.GetManifestResourceStream("K4Y.AMCAS.DataExchange.RestApi.Samples.Applications.xml");
+            XmlDocument doc = new XmlDocument();
+            doc.Load(s);
+
+            return parseApplicationsXml(doc);
+        }
+        public override List<ApplicationData> GetApplicationList(MedicalInstitutions institution, string year)
+        {
+            List<Application> applicationList = new List<Application>();
+
+            Assembly a = Assembly.GetExecutingAssembly();
+            Stream s = a.GetManifestResourceStream("K4Y.AMCAS.DataExchange.RestApi.Samples.Applications2018.xml");
+            XmlDocument doc = new XmlDocument();
+            doc.Load(s);
+
+            return parseApplicationListXml(doc);
+        }
+        public override List<Application> GetSingleApplication(MedicalInstitutions institution, string year, string AAMCID)
+        {
+            List<Application> applicationList = new List<Application>();
+
+            Assembly a = Assembly.GetExecutingAssembly();
+            Stream s = a.GetManifestResourceStream("K4Y.AMCAS.DataExchange.RestApi.Samples.SingleApplication.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(s);
 

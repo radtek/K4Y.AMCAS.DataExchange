@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K4Y.AMCAS.DataExchange.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K4Y.AMCAS.DataExchange.WebClient", "K4Y.AMCAS.DataExchange.WebClient\K4Y.AMCAS.DataExchange.WebClient.csproj", "{378A11D5-4031-4C32-A80F-4A897139E185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRestClient", "BasicRestClient\BasicRestClient.csproj", "{3A921F68-98AF-4EEC-A96D-F8E236E2454B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K4Y.AMCAS.DataExchange.RestApi.Tests", "K4Y.AMCAS.DataExchange.RestApi.Tests\K4Y.AMCAS.DataExchange.RestApi.Tests.csproj", "{CF9A284A-DFB6-410E-A90D-343640F15B83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{378A11D5-4031-4C32-A80F-4A897139E185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378A11D5-4031-4C32-A80F-4A897139E185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378A11D5-4031-4C32-A80F-4A897139E185}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A921F68-98AF-4EEC-A96D-F8E236E2454B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A921F68-98AF-4EEC-A96D-F8E236E2454B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A921F68-98AF-4EEC-A96D-F8E236E2454B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A921F68-98AF-4EEC-A96D-F8E236E2454B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9A284A-DFB6-410E-A90D-343640F15B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9A284A-DFB6-410E-A90D-343640F15B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9A284A-DFB6-410E-A90D-343640F15B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9A284A-DFB6-410E-A90D-343640F15B83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

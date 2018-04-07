@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Export xmlns="http://ns.aamc.org/amcas/v2/export">
+  <Applications>
+    <Application>
+      <IdentifyingInformation>
+        <ID>
+          <ApplicationYear>2018</ApplicationYear>
+          <AAMCID>21070028</AAMCID>
+          <ApplicationDateTime>2017-09-06T14:01:34</ApplicationDateTime>
+          <ApplicationStatus>Verified</ApplicationStatus>
+          <ApplicantPersonID>1018565</ApplicantPersonID>
+        </ID>
+        <NameDetails>
+          <Legal>
+            <FirstName>Marty</FirstName>
+            <LastName>Lawrence</LastName>
+          </Legal>
+          <Preferred>
+            <FirstName>Marty</FirstName>
+            <LastName>Lawrence</LastName>
+          </Preferred>
+        </NameDetails>
+      </IdentifyingInformation>
+      <ContactInformation>
+        <PreferredAddress>
+          <StreetAddress>
+            <Address1>655 K St. NW</Address1>
+          </StreetAddress>
+          <City>Washington</City>
+          <State>
+            <StateCode>DC</StateCode>
+            <StateDescription>District of Columbia</StateDescription>
+          </State>
+          <PostalCode>20001</PostalCode>
+          <Country>
+            <CountryCode>USA</CountryCode>
+            <CountryDescription>United States</CountryDescription>
+          </Country>
+          <County>
+            <CountyCode>DC001</CountyCode>
+            <CountyDescription>The District</CountyDescription>
+            <CountyRuralIndicator>false</CountyRuralIndicator>
+            <CountyMedicallyUnderservedIndicator>true</CountyMedicallyUnderservedIndicator>
+          </County>
+          <DayPhone>202-885-1221</DayPhone>
+          <Email>testamcas@aamc.org</Email>
+        </PreferredAddress>
+        <PermanentAddress>
+          <StreetAddress>
+            <Address1>655 K St. NW</Address1>
+          </StreetAddress>
+          <City>Washington</City>
+            <State>
+              <StateCode>DC</StateCode>
+              <StateDescription>District of Columbia</StateDescription>
+            </State>
+          <PostalCode>20001</PostalCode>
+          <Country>
+            <CountryCode>USA</CountryCode>
+            <CountryDescription>United States</CountryDescription>
+          </Country>
+          <County>
+            <CountyCode>DC001</CountyCode>
+            <CountyDescription>The District</CountyDescription>
+            <CountyRuralIndicator>false</CountyRuralIndicator>
+            <CountyMedicallyUnderservedIndicator>true</CountyMedicallyUnderservedIndicator>
+          </County>
+          <DayPhone>202-885-1221</DayPhone>
+          <Email>testamcas@aamc.org</Email>
+        </PermanentAddress>
+      </ContactInformation>
+      <DemographicInformation>
+        <NoParentInformationIndicator>true</NoParentInformationIndicator>
+        <GeneralDemographics>
+          <NumberOfDependents>0</NumberOfDependents>
+          <FAPIndicator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </GeneralDemographics>
+        <CitizenshipResidency>
+          <USALegalResidentIndicator>false</USALegalResidentIndicator>
+          <CitizenshipCountry>
+            <CountryCode>USA</CountryCode>
+            <CountryDescription>United States</CountryDescription>
+          </CitizenshipCountry>
+        </CitizenshipResidency>
+        <BirthInformation>
+          <Sex>Male</Sex>
+          <DesignatedPronounCode>S</DesignatedPronounCode>
+          <DesignatedPronoun>She/Her/Hers</DesignatedPronoun>
+          <GenderIdentities>
+            <GenderIdentityCode>TM</GenderIdentityCode>
+            <GenderIdentity>Trans male/Trans man</GenderIdentity>
+          </GenderIdentities>
+          <GenderIdentities>
+            <GenderIdentityCode>M</GenderIdentityCode>
+            <GenderIdentity>Male</GenderIdentity>
+          </GenderIdentities>
+          <GenderIdentities>
+            <GenderIdentityCode>F</GenderIdentityCode>
+            <GenderIdentity>Female</GenderIdentity>
+          </GenderIdentities>
+          <BirthDate>1992-11-16</BirthDate>
+          <BirthCity>Atlanta</BirthCity>
+          <BirthState>
+            <StateCode>GA</StateCode>
+            <StateDescription>Georgia</StateDescription>
+          </BirthState>
+          <BirthCountry>
+            <CountryCode>USA</CountryCode>
+            <CountryDescription>United States</CountryDescription>
+          </BirthCountry>
+          <BirthCounty>
+            <CountyCode>GA121</CountyCode>
+            <CountyDescription>Fulton</CountyDescription>
+            <CountyRuralIndicator>false</CountyRuralIndicator>
+            <CountyMedicallyUnderservedIndicator>true</CountyMedicallyUnderservedIndicator>
+          </BirthCounty>
+        </BirthInformation>
+        <Childhood>
+          <Country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <MedicallyUnderServedSelfReported>Decline to Answer</MedicallyUnderServedSelfReported>
+          <FederalOrStateAssistanceProgramIndicator>Decline to Answer</FederalOrStateAssistanceProgramIndicator>
+          <PaidEmploymentIndicator>Decline to Answer</PaidEmploymentIndicator>
+          <ContributeIncomeIndicator>Decline to Answer</ContributeIncomeIndicator>
+          <HouseholdSize>4</HouseholdSize>
+          <FamilyIncomeLevel>$25,000 - 49,999</FamilyIncomeLevel>
+          <EducationFunding/>
+        </Childhood>
+        <Languages>
+          <Language>
+            <LanguageDescription>English</LanguageDescription>
+            <LanguageProficiency>
+              <ProficiencyCode>BA</ProficiencyCode>
+              <ProficiencyShortDescription>Basic</ProficiencyShortDescription>
+              <ProficiencyLongDescription>I speak the language imperfectly and only to a limited degree and in limited situations. I have difficulty in or understanding extended conversations.</ProficiencyLongDescription>
+            </LanguageProficiency>
+            <LanguageUseInChildhoodHome>
+              <UsageCode>AL</UsageCode>
+              <UsageDescription>Always</UsageDescription>
+            </LanguageUseInChildhoodHome>
+          </Language>
+        </Languages>
+        <SocioEconomicInformation>
+          <SESIndicator>NA</SESIndicator>
+          <PellGrantIndicator>Decline to Answer</PellGrantIndicator>
+          <FirstGenerationIndicator>Unknown</FirstGenerationIndicator>
+        </SocioEconomicInformation><SelfReportedDisadvantagedStatus>
+          <DisadvantagedIndicator>false</DisadvantagedIndicator>
+        </SelfReportedDisadvantagedStatus>
+        <SelfIdentification>
+          <HispanicEthnicityIndicator>false</HispanicEthnicityIndicator>
+          <HispanicLatinoOrOfSpanishOrigin/>
+          <Races>
+            <Race>
+              <RaceCategoryCode>W</RaceCategoryCode>
+              <RaceCategoryDescription>White</RaceCategoryDescription>
+            </Race>
+          </Races>
+        </SelfIdentification>
+      </DemographicInformation>
+      <AcademicInformation>
+        <HighSchool>
+          <HighSchoolInstitutionID>82739</HighSchoolInstitutionID>
+          <Name>
+            <ShortDescription>Other (not listed)</ShortDescription>
+            <LongDescription>Other (not listed)</LongDescription>
+            <ModifiedDescription>Booker T Washington High Sch</ModifiedDescription>
+          </Name>
+          <GraduationYear>2011</GraduationYear>
+          <City>Atlanta</City>
+          <State><StateCode>GA</StateCode><StateDescription>Georgia</StateDescription></State>
+          <Country><CountryCode>USA</CountryCode><CountryDescription>United States</CountryDescription></Country>
+          <County><CountyCode>GA121</CountyCode><CountyDescription>Fulton</CountyDescription><CountyRuralIndicator>false</CountyRuralIndicator><CountyMedicallyUnderservedIndicator>true</CountyMedicallyUnderservedIndicator></County>
+        </HighSchool>
+        <SchoolsAttended>
+          <SchoolAttendedID>3159663</SchoolAttendedID>
+          <CollegeInstitutionID>2763</CollegeInstitutionID>
+          <CollegeName>
+            <ShortDescription>Johns Hopkins University</ShortDescription>
+            <LongDescription>Johns Hopkins University</LongDescription>
+            <ModifiedDescription>Johns Hopkins University</ModifiedDescription>
+          </CollegeName>
+          <City>Baltimore</City>
+          <State><StateCode>MD</StateCode><StateDescription>Maryland</StateDescription></State>
+          <Country><CountryCode>USA</CountryCode><CountryDescription>United States</CountryDescription></Country>
+          <County><CountyCode>MD510</CountyCode><CountyDescription>Baltimore City</CountyDescription><CountyRuralIndicator>false</CountyRuralIndicator><CountyMedicallyUnderservedIndicator>true</CountyMedicallyUnderservedIndicator></County>
+          <StartMonthAndYear>2011-08</StartMonthAndYear>
+          <EndMonthAndYear>2015-05</EndMonthAndYear>
+          <PrimaryUndergraduateInstitutionIndicator>true</PrimaryUndergraduateInstitutionIndicator>
+          <ProgramType>
+            <ProgramTypeCode>U</ProgramTypeCode>
+            <ProgramTypeDescription>Undergraduate</ProgramTypeDescription>
+          </ProgramType>
+          <Minor>
+            <MinorID>4832517</MinorID>
+            <MinorCode>NM</MinorCode>
+            <MinorDescription>No Minor</MinorDescription>
+            <ModifiedMinorDescription>No Minor</ModifiedMinorDescription>
+          </Minor>
+          <Major>
+            <MajorID>4832516</MajorID>
+            <MajorCode>MB</MajorCode>
+            <MajorDescription>Molecular Biology</MajorDescription>
+            <ModifiedMajorDescription>Molecular Biology</ModifiedMajorDescription>
+          </Major>
+          <Degree>
+            <DegreeID>2498705</DegreeID>
+            <DegreeName
+              ><DegreeCode>BS</DegreeCode>
+              <DegreeDescription>Bachelor of Science</DegreeDescription>
+              <ModifiedDegreeDescription>Bachelor of Science</ModifiedDegreeDescription>
+            </DegreeName>
+            <DegreeDate>2015-05-01</DegreeDate>
+          </Degree>
+          <Coursework>
+            <CourseWorkID>39995207</CourseWorkID>
+            <CourseName>General Biology</CourseName><CourseNumber>BIOL 020.151</CourseNumber>
+            <CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator>
+            <AcademicYear>2011</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade>
+            <AcademicTerm>
+              <AcademicTermCode>41</AcademicTermCode>
+              <AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription>
+            </AcademicTerm>
+            <AcademicStatus>
+              <AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription>
+            </AcademicStatus>
+            <SupplementalHours>4.0</SupplementalHours><CreditHours>4.0</CreditHours>
+            <VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark>
+          </Coursework>
+          <Coursework>
+            <CourseWorkID>39995208</CourseWorkID><CourseName>General Biology II</CourseName><CourseNumber>BIOL 020.152</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework>
+            <CourseWorkID>39995209</CourseWorkID><CourseName>Inductory Chemistry I</CourseName><CourseNumber>CHEM 030.101</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><SupplementalHours>3.0</SupplementalHours><CreditHours>3.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework>
+            <CourseWorkID>39995210</CourseWorkID><CourseName>Intro Chemistry Lab I</CourseName><CourseNumber>CHEM 030.105</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><SupplementalHours>1.0</SupplementalHours><CreditHours>1.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework>
+            <CourseWorkID>39995211</CourseWorkID><CourseName>Fiction/Poetry Writing I</CourseName><CourseNumber>WRIT 220.105</CourseNumber><CourseClassification>English Language &amp; Literature</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><SupplementalHours>3.0</SupplementalHours><CreditHours>3.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework>
+            <CourseWorkID>39995212</CourseWorkID><CourseName>Chemical Eng Today</CourseName><CourseNumber>CHBE 540.101</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><SupplementalHours>1.0</SupplementalHours><CreditHours>1.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995213</CourseWorkID><CourseName>Intro Chemistry II</CourseName><CourseNumber>CHEM 030.102</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>A-</TranscriptGrade><AMCASGrade>A-</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework><Coursework><CourseWorkID>39995214</CourseWorkID><CourseName>Intro Chemistry Lab</CourseName><CourseNumber>CHEM 030.106</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>A-</TranscriptGrade><AMCASGrade>A-</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><CreditHours>1.0</CreditHours><SemesterHours>1.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework><Coursework><CourseWorkID>39995215</CourseWorkID><CourseName>Calculus I</CourseName><CourseNumber>MATH 110.106</CourseNumber><CourseClassification>Math</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework><Coursework><CourseWorkID>39995216</CourseWorkID><CourseName>Fiction Poetry Writing II</CourseName><CourseNumber>WRIT 220.106</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2011</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>FR</AcademicStatusCode><AcademicStatusDescription>Freshman</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>2</VerificationMarkID><VerificationMarkDescription>Verified - change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995217</CourseWorkID><CourseName>Calculus II</CourseName><CourseNumber>MATH 110.107</CourseNumber><CourseClassification>Math</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>A-</TranscriptGrade><AMCASGrade>A-</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>4</VerificationMarkID><VerificationMarkDescription>Not listed on transcript - change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995218</CourseWorkID><CourseName>Biochemistry</CourseName><CourseNumber>BIOL 020.305</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>A</TranscriptGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><VerificationMark><VerificationMarkID>0</VerificationMarkID><VerificationMarkDescription>Not listed on transcript</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995219</CourseWorkID><CourseName>Biochemistry Lab</CourseName><CourseNumber>BIOL 020.305</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>B+</TranscriptGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>2.0</CreditHours><VerificationMark><VerificationMarkID>5</VerificationMarkID><VerificationMarkDescription>No verification required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995220</CourseWorkID><CourseName>Organic Chemistry I</CourseName><CourseNumber>CHEM 030.205</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995221</CourseWorkID><CourseName>Cell Biology</CourseName><CourseNumber>BIOL 020.306</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>B+</TranscriptGrade><AMCASGrade>B+</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995222</CourseWorkID><CourseName>Cell Biology Lab</CourseName><CourseNumber>BIOL 020.316</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>B+</TranscriptGrade><AMCASGrade>B+</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>2.0</CreditHours><SemesterHours>2.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995223</CourseWorkID><CourseName>Organic Chemistry II</CourseName><CourseNumber>CHEM 030.206</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995224</CourseWorkID><CourseName>Intro Organic Chem Lab</CourseName><CourseNumber>CHEM 030.225</CourseNumber><CourseClassification>Chemistry</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>B+</TranscriptGrade><AMCASGrade>B+</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995225</CourseWorkID><CourseName>Gods and Monsters in Ancient Egypt</CourseName><CourseNumber>NEAS 130.126</CourseNumber><CourseClassification>History</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2012</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SO</AcademicStatusCode><AcademicStatusDescription>Sophomore</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995226</CourseWorkID><CourseName>Genetics</CourseName><CourseNumber>BIOL 020.330</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>S1</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995227</CourseWorkID><CourseName>Intro to Bioethics</CourseName><CourseNumber>PHIL 150.219</CourseNumber><CourseClassification>Philosophy/Religion</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A-</TranscriptGrade><AMCASGrade>A-</AMCASGrade><AcademicTerm><AcademicTermCode>S1</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework>
+            <CourseWorkID>39995228</CourseWorkID><CourseName>Gen Phys I- Bioscience Majors</CourseName><CourseNumber>PHYS 171.103</CourseNumber><CourseClassification>Physics</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>S1</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>4.0</CreditHours><SemesterHours>4.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark>
+          </Coursework>
+          <Coursework><CourseWorkID>39995229</CourseWorkID>
+          <CourseName>General Physics Lab I</CourseName>
+            <CourseNumber>PHYS 173.111</CourseNumber>
+            <CourseClassification>Physics</CourseClassification>
+            <LabIndicator>1</LabIndicator>
+            <AcademicYear>2013</AcademicYear>
+            <TranscriptGrade>A</TranscriptGrade>
+            <AMCASGrade>A</AMCASGrade>
+            <AcademicTerm>
+              <AcademicTermCode>S1</AcademicTermCode>
+              <AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription>
+            </AcademicTerm>
+            <AcademicStatus>
+              <AcademicStatusCode>JR</AcademicStatusCode>
+              <AcademicStatusDescription>Junior</AcademicStatusDescription>
+            </AcademicStatus>
+            <CreditHours>1.0</CreditHours>
+            <SemesterHours>1.0</SemesterHours>
+            <VerificationMark>
+              <VerificationMarkID>1</VerificationMarkID>
+              <VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription>
+            </VerificationMark>
+          </Coursework>
+          <Coursework>
+            <CourseWorkID>39995230</CourseWorkID>
+            <CourseName>Intro to Psychology</CourseName>
+            <CourseNumber>PSYC 200.101</CourseNumber>
+            <CourseClassification>Behavioral &amp; Social Sciences</CourseClassification>
+            <LabIndicator>0</LabIndicator>
+            <AcademicYear>2013</AcademicYear>
+            <TranscriptGrade>A</TranscriptGrade>
+            <AMCASGrade>A</AMCASGrade><AcademicTerm>
+              <AcademicTermCode>S1</AcademicTermCode>
+              <AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription>
+            </AcademicTerm>
+            <AcademicStatus>
+              <AcademicStatusCode>JR</AcademicStatusCode>
+              <AcademicStatusDescription>Junior</AcademicStatusDescription>
+            </AcademicStatus>
+            <CreditHours>1.0</CreditHours>
+            <SemesterHours>1.0</SemesterHours>
+            <VerificationMark>
+              <VerificationMarkID>1</VerificationMarkID>
+              <VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription>
+          </VerificationMark>
+          </Coursework>
+          <Coursework><CourseWorkID>39995231</CourseWorkID><CourseName>Careers in Psychology</CourseName><CourseNumber>PSYC 200.403</CourseNumber><CourseClassification>Behavioral &amp; Social Sciences</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>S1</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><SupplementalHours>1.0</SupplementalHours><CreditHours>1.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995232</CourseWorkID><CourseName>Developmental Biology</CourseName><CourseNumber>BIOL 020.363</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995450</CourseWorkID><CourseName>Planets, Life and the Universe</CourseName><CourseNumber>BIOL 020.334</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A+</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995451</CourseWorkID><CourseName>Developmental Biology Lab</CourseName><CourseNumber>BIOL 020.373</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>1.0</CreditHours><SemesterHours>1.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995452</CourseWorkID><CourseName>Roman History and Hollywood Cinema</CourseName><CourseNumber>CLAS 040.142</CourseNumber><CourseClassification>History</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><SupplementalHours>3.0</SupplementalHours><CreditHours>3.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995453</CourseWorkID><CourseName>Gen Phys/Biol Majors II</CourseName><CourseNumber>PHYS 171.104</CourseNumber><CourseClassification>Physics</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995454</CourseWorkID><CourseName>General Physics Lab</CourseName><CourseNumber>PHYS 173.112</CourseNumber><CourseClassification>Physics</CourseClassification><LabIndicator>1</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>1.0</CreditHours><SemesterHours>1.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995455</CourseWorkID><CourseName>Oral Presentations</CourseName><CourseNumber>PCOM 661.150</CourseNumber><CourseClassification>Other</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2013</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>JR</AcademicStatusCode><AcademicStatusDescription>Junior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995456</CourseWorkID><CourseName>Evolution</CourseName><CourseNumber>BIOL 020.379</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995457</CourseWorkID><CourseName>Reproductive Physiology</CourseName><CourseNumber>BPHY 250.351</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995458</CourseWorkID><CourseName>Human Sexuality</CourseName><CourseNumber>PSYC 200.204</CourseNumber><CourseClassification>Behavioral &amp; Social Sciences</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995459</CourseWorkID><CourseName>Baltimore and The Wire: Urban Issues</CourseName><CourseNumber>PUBH 280.220</CourseNumber><CourseClassification>Other</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>41</AcademicTermCode><AcademicTermDescription>1st Semester (Fall)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995460</CourseWorkID><CourseName>Research</CourseName><CourseNumber>BIOL 020.572</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>4M</AcademicTermCode><AcademicTermDescription>Mini Semester (Winter/Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><SupplementalHours>3.0</SupplementalHours><CreditHours>3.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995461</CourseWorkID><CourseName>Human Sexual Orientation</CourseName><CourseNumber>BEHB 290.420</CourseNumber><CourseClassification>Other</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A+</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995462</CourseWorkID><CourseName>Intro to the Human Brain</CourseName><CourseNumber>BIOL 020.312</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995463</CourseWorkID><CourseName>Stem Cells &amp; Bio</CourseName><CourseNumber>BIOL 020.337</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A+</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>2.0</CreditHours><SemesterHours>2.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995464</CourseWorkID><CourseName>Research Problems</CourseName><CourseNumber>BIOL 020.514</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>S</TranscriptGrade><AMCASGrade>P</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><SupplementalHours>3.0</SupplementalHours><CreditHours>3.0</CreditHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995465</CourseWorkID><CourseName>Intro Biomed Rsch</CourseName><CourseNumber>BPHY 250.300</CourseNumber><CourseClassification>Biology</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>1.0</CreditHours><SemesterHours>1.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+          <Coursework><CourseWorkID>39995466</CourseWorkID><CourseName>Public Health, Policy and Politics</CourseName><CourseNumber>PUBH 280.103</CourseNumber><CourseClassification>Health Sciences</CourseClassification><LabIndicator>0</LabIndicator><AcademicYear>2014</AcademicYear><TranscriptGrade>A</TranscriptGrade><AMCASGrade>A</AMCASGrade><AcademicTerm><AcademicTermCode>42</AcademicTermCode><AcademicTermDescription>2nd Semester (Spring)</AcademicTermDescription></AcademicTerm><AcademicStatus><AcademicStatusCode>SR</AcademicStatusCode><AcademicStatusDescription>Senior</AcademicStatusDescription></AcademicStatus><CreditHours>3.0</CreditHours><SemesterHours>3.0</SemesterHours><VerificationMark><VerificationMarkID>1</VerificationMarkID><VerificationMarkDescription>Verified correct - no change required</VerificationMarkDescription></VerificationMark></Coursework>
+        </SchoolsAttended>
+        <InstitutionalActionIndicator>false</InstitutionalActionIndicator>
+        <GPAs>
+          <GPA>
+            <AcademicStatus>FR</AcademicStatus>
+            <BCPMGPA>
+              <BCPMGPA>3.92</BCPMGPA>
+              <BCPMHours>15.0</BCPMHours>
+            </BCPMGPA>
+            <AOGPA/>
+            <TotalGPA>
+              <TotalGPA>3.92</TotalGPA>
+              <TotalHours>15.0</TotalHours>
+            </TotalGPA>
+          </GPA>
+          <GPA><AcademicStatus>SO</AcademicStatus><BCPMGPA><BCPMGPA>3.64</BCPMGPA><BCPMHours>21.0</BCPMHours></BCPMGPA><AOGPA><AOGPA>4.0</AOGPA><AOHours>3.0</AOHours></AOGPA><TotalGPA><TotalGPA>3.69</TotalGPA><TotalHours>24.0</TotalHours></TotalGPA></GPA>
+          <GPA><AcademicStatus>JR</AcademicStatus><BCPMGPA><BCPMGPA>4.0</BCPMGPA><BCPMHours>16.0</BCPMHours></BCPMGPA><AOGPA><AOGPA>3.87</AOGPA><AOHours>7.0</AOHours></AOGPA><TotalGPA><TotalGPA>3.96</TotalGPA><TotalHours>23.0</TotalHours></TotalGPA></GPA>
+          <GPA><AcademicStatus>SR</AcademicStatus><BCPMGPA><BCPMGPA>4.0</BCPMGPA><BCPMHours>15.0</BCPMHours></BCPMGPA><AOGPA><AOGPA>4.0</AOGPA><AOHours>12.0</AOHours></AOGPA><TotalGPA><TotalGPA>4.0</TotalGPA><TotalHours>27.0</TotalHours></TotalGPA></GPA>
+          <GPA><AcademicStatus>CU</AcademicStatus><BCPMGPA><BCPMGPA>3.87</BCPMGPA><BCPMHours>67.0</BCPMHours></BCPMGPA><AOGPA><AOGPA>3.96</AOGPA><AOHours>22.0</AOHours></AOGPA><TotalGPA><TotalGPA>3.89</TotalGPA><TotalHours>89.0</TotalHours></TotalGPA></GPA>
+          <SupplementalHoursPassed>22.0</SupplementalHoursPassed>
+        </GPAs>
+        <MCATScores><AdditionalMCATIntentIndicator>false</AdditionalMCATIntentIndicator></MCATScores>
+        <PreviousMatriculationIndicator>false</PreviousMatriculationIndicator>
+      </AcademicInformation>
+      <Essays><PersonalStatement>N/A</PersonalStatement></Essays>
+      <MilitaryService>
+        <MilitaryServiceIndicator>
+          <MilitaryServiceIndicator>2</MilitaryServiceIndicator>
+          <MilitaryServiceDescription>No</MilitaryServiceDescription>
+        </MilitaryServiceIndicator>
+        <MilitaryServiceStatus/>
+        <GIBillEligibility><GIBill>Post 9/11 GI Bill</GIBill></GIBillEligibility>
+      </MilitaryService>
+      <MedicalSchoolDesignation>
+        <MedicalInstitutionID>870</MedicalInstitutionID>
+        <ApplicationProgramType>
+          <ApplicationProgramTypeID>1</ApplicationProgramTypeID>
+          <ApplicationProgramTypeDescription>Regular M.D.</ApplicationProgramTypeDescription>
+        </ApplicationProgramType>
+        <ApplicationAvailabilityDate>2017-10-28T08:10:14</ApplicationAvailabilityDate>
+      </MedicalSchoolDesignation>
+      <LettersOfEvaluation>
+        <AllAMCASLettersReceivedIndicator>false</AllAMCASLettersReceivedIndicator>
+      </LettersOfEvaluation>
+      <CriminalHistoryAndAAMCInvestigations>
+        <FelonyIndicator>false</FelonyIndicator>
+        <MisdemeanorIndicator>false</MisdemeanorIndicator>
+      </CriminalHistoryAndAAMCInvestigations>
+      <Documents/>
+    </Application>
+  </Applications>
+</Export>

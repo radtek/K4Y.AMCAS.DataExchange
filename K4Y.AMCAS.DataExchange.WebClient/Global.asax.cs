@@ -19,11 +19,8 @@ namespace K4Y.AMCAS.DataExchange.WebClient
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            IApiClient apiClient = new MockApiClient();
-            Application["apiClient"] = apiClient;
-
-            AmcasRepository repository = new AmcasRepository();
-            Application["amcasRepository"] = repository;
+            Application["apiClient"] = ApiClientFactory.Create(ApiClientTypes.Mock);
+            Application["amcasRepository"] = new AmcasRepository();
         }
     }
 }

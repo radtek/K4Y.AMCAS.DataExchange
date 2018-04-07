@@ -45,7 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiClient.cs" />
+    <Compile Include="ApiClientFactory.cs" />
+    <Compile Include="ApiClientTypes.cs" />
     <Compile Include="BaseApiClient.cs" />
+    <Compile Include="CurlApiClient.cs" />
     <Compile Include="IApiClient.cs" />
     <Compile Include="MockApiClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\Applications2018.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\SingleApplication.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

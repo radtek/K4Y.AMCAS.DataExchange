@@ -111,4 +111,7 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(SolutionDir)packages\curl" "$(TargetDir)curl\" /s /y</PostBuildEvent>
+  </PropertyGroup>
 </Project>

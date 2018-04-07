@@ -16,7 +16,9 @@ namespace K4Y.AMCAS.DataExchange.RestApi
         }
         public bool BatchIndicator { get; set; }
         public abstract string GetApiResponseContent(MedicalInstitutions institution);
-        public abstract List<Application> GetApplicationList(MedicalInstitutions institution);
+        public abstract List<Application> GetAllApplications(MedicalInstitutions institution);
+        public abstract List<ApplicationData> GetApplicationList(MedicalInstitutions institution, string year);
+        public abstract List<Application> GetSingleApplication(MedicalInstitutions institution, string year, string AAMCID);
         public List<Application> ParseApplications(string content)
         {
             List<Application> result = new List<Application>();
@@ -59,9 +61,35 @@ namespace K4Y.AMCAS.DataExchange.RestApi
                 });
             }
 
-            string batchIndicator = doc.DocumentElement.SelectSingleNode("/amcas:Export/amcas:Applications/amcas:BatchIndicator", nsmgr).InnerText;
-            bool batchParseResult = false;
-            BatchIndicator = bool.TryParse(batchIndicator, out batchParseResult);
+            var batchNode = doc.DocumentElement.SelectSingleNode("/amcas:Export/amcas:Applications/amcas:BatchIndicator", nsmgr);
+            if (batchNode != null)
+            {
+                string batchIndicator = batchNode.InnerText;
+                bool batchParseResult = false;
+                BatchIndicator = bool.TryParse(batchIndicator, out batchParseResult);
+            }
+
+            return applicationList;
+        }
+
+        protected List<ApplicationData> parseApplicationListXml(XmlDocument doc)
+        {
+            List<ApplicationData> applicationList = new List<ApplicationData>();
+
+            string xmlns = doc.DocumentElement.Attributes["xmlns"].Value;
+            XmlNamespaceManager nsmgr = new XmlNamespaceManager(doc.NameTable);
+            nsmgr.AddNamespace("amcas", xmlns);
+
+            XmlNodeList nodes = doc.DocumentElement.SelectNodes("/amcas:ExportIDList/amcas:Application", nsmgr);
+            string aAMCID = "";
+            foreach (XmlNode node in nodes)
+            {
+                aAMCID = node.SelectSingleNode("amcas:AAMCID", nsmgr).InnerText;
+                applicationList.Add(new ApplicationData()
+                {
+                    AAMCID = aAMCID,
+                });
+            }
 
             return applicationList;
         }
