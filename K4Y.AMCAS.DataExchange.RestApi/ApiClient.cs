@@ -14,7 +14,8 @@ namespace K4Y.AMCAS.DataExchange.RestApi
     public class ApiClient : BaseApiClient
     {
         private HttpClient client = null;
-        public ApiClient(String apiUri)
+        private String apiURL = "https://ws‐amcas.staging.aamc.org/amcas‐data‐service/"; // 143.220.15.63
+        public ApiClient()
         {
             WebRequestHandler handler = new WebRequestHandler();
             String certificateFilePath = ".\\client.crt";
@@ -22,7 +23,7 @@ namespace K4Y.AMCAS.DataExchange.RestApi
             handler.ClientCertificates.Add(certificate);
 
             client = new HttpClient(handler);
-            client.BaseAddress = new Uri(apiUri); 
+            client.BaseAddress = new Uri(apiURL); 
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
         }
@@ -30,7 +31,7 @@ namespace K4Y.AMCAS.DataExchange.RestApi
         {
             return getApiResponseContentAsync(institution).Result;
         }
-        public override List<Application> GetApplicationList(MedicalInstitutions institution)
+        public override List<Application> GetAllApplications(MedicalInstitutions institution)
         {
             return getApplicationListAsync(institution).Result;
         }
@@ -59,6 +60,16 @@ namespace K4Y.AMCAS.DataExchange.RestApi
             }
 
             return applications;
+        }
+
+        public override List<ApplicationData> GetApplicationList(MedicalInstitutions institution, string year)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override List<Application> GetSingleApplication(MedicalInstitutions institution, string year, string AAMCID)
+        {
+            throw new NotImplementedException();
         }
     }
 }

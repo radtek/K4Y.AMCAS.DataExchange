@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="ApplicationData.cs" />
     <Compile Include="MedicalInstitutions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,7 +12,6 @@ namespace K4Y.AMCAS.DataExchange.DesktopClient
 {
     public partial class MainInputForm : Form
     {
-        private String apiURL = "https://ws‐amcas.staging.aamc.org/amcas‐data‐service/"; // 143.220.15.63
         private RestApi.IApiClient apiClient;
         private List<DataModel.Application> apiApplications = new List<DataModel.Application>();
         private DataStore.AmcasRepository repository;
@@ -20,7 +19,7 @@ namespace K4Y.AMCAS.DataExchange.DesktopClient
         public MainInputForm()
         {
             InitializeComponent();
-            apiClient = new RestApi.MockApiClient();
+            apiClient = RestApi.ApiClientFactory.Create(RestApi.ApiClientTypes.Curl);
             repository = new DataStore.AmcasRepository();
         }
 
